@@ -7,7 +7,15 @@ import About from "./About";
 import user from "../data/user";
 console.log(user);
 
-function App() {
+function App() { const user = {
+  name: 'Irene Annah',
+  email: 'ireane@gmail.com',
+  // Other user data
+};
+
+const bio = 'I am a passionate developer.';
+const github = 'https://github.com/ireneannah';
+const linkedin = 'https://www.linkedin.com/in/ireneannah';
   return (
     <div>
       <NavBar />
